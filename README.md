@@ -1,45 +1,108 @@
-# Hi there, I'm Abderrahmen Jedidi! 👋
+<!-- Banner: upload your image to the AbdouJdidi repo (e.g. assets/banner.png) then keep this path -->
+![Banner](./assets/banner.png)
 
-![Banner Image](your_banner_image_url_here)
+<h1 align="center">Hi, I'm Abderrahmen Jedidi 👋</h1>
 
-## About Me 🚀
+<p align="center">
+  <a href="https://github.com/AbdouJdidi">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E63946&center=true&vCenter=true&width=600&lines=Software+Engineering+Student+%40+FST;AI+%26+RAG+Systems+Builder;Full-Stack+Developer;Cloud+%26+DevOps+%7C+AWS+Certified" alt="Typing SVG" />
+  </a>
+</p>
 
-I'm a passionate **[Your Job Title / Developer Role]** with experience in **[technologies you're proficient in]**. I love tackling complex problems, learning new skills, and collaborating with diverse teams to create innovative solutions.
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-Cloud_Practitioner-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Open_to-PFE_Internship-2EA44F?style=for-the-badge" />
+</p>
 
-- 🌱 Currently learning: **[new technologies or skills you're currently learning]**
-- 🔭 Working on: **[current projects or side-projects]**
-- 🌍 Languages: **[programming languages and human languages you speak]**
-- 📫 How to reach me: **[your email address or other contact information]**
-- ⚡ Fun fact: **[a fun fact about yourself]**
+---
 
-## My Skills 🧠
+## 🧭 About Me
 
-![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+I'm a **5th-year Software Engineering student** at the Faculté des Sciences de Tunis, building at the intersection of **AI, full-stack development, and cloud/DevOps**. I like turning messy real-world problems into clean, working systems — from RAG pipelines that answer questions over legal contracts to AI agents that edit video on their own.
 
-*Replace the above skill badges with your own skills and expertise. To create more badges, use [checkout this repo](https://github.com/alexandresanlim/Badges4-README.md-Profile).*
+- 🔭 **Building:** ClipForge (AI video clipping agent) and an AI DevOps assistant for incident diagnosis
+- 🌱 **Learning:** LLM agents, RAG evaluation, AWS CloudOps & Data Engineering
+- 🎯 **Looking for:** a **PFE end-of-studies internship** — in Tunisia or abroad
+- 🎬 **Also:** video editor — which is exactly why I built my own clipping engine
+- 🌍 **Languages:** Arabic · French · English
 
-## Featured Projects 💻
+---
 
-### [Project 1 Title](project_1_link)
+## 🛠️ Tech Stack
 
-![Project 1 Screenshot](project_1_screenshot_url)
+**Languages**
 
-**[Project 1 Title]** is a **[brief project description]** built with **[technologies used]**. This project demonstrates my ability to **[skills demonstrated by the project]**. You can check out the repository [here](project_1_repository_link).
+<p>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,java&perline=10" />
+</p>
 
-### [Project 2 Title](project_2_link)
+**Frontend & Backend**
 
-![Project 2 Screenshot](project_2_screenshot_url)
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,nestjs,express,spring,graphql&perline=10" />
+</p>
 
-**[Project 2 Title]** is a **[brief project description]** built with **[technologies used]**. This project showcases my skills in **[skills demonstrated by the project]**. You can check out the repository [here](project_2_repository_link).
+**Data, AI & Search**
 
-## Get in Touch 📬
+<p>
+  <img src="https://skillicons.dev/icons?i=elasticsearch,postgres,mongodb,pytorch&perline=10" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/RAG-Hybrid_Search-6E40C9?style=flat-square" />
+  <img src="https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square&logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/FFmpeg-Video_Pipelines-007808?style=flat-square&logo=ffmpeg&logoColor=white" />
+</p>
 
-- **[Personal Website / Blog]**(your_website_or_blog_link)
-- **[LinkedIn]**(your_linkedin_profile_link)
-- **[Twitter]**(your_twitter_profile_link)
+**Cloud & DevOps**
 
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,githubactions,linux,git&perline=10" />
+</p>
 
+---
+
+## 🚀 Featured Projects
+
+### 🎬 [ClipForge](https://github.com/AbdouJdidi/ClipForge)
+
+**An AI clipping agent that turns long-form videos into ready-to-post short clips** — think Opus Clip, but built from scratch and running entirely on free, local tools.
+ClipForge transcribes the video, detects the most engaging moments, reframes them to vertical 9:16, and burns in animated captions, icons, and sound effects automatically.
+
+- ⚙️ **Stack:** Python · FFmpeg · local speech-to-text · local LLM
+- 💡 **Why it matters:** fully automated, zero paid APIs, and already used to produce clips for real content campaigns
+
+### 📜 [Contract Analyser](https://github.com/AbdouJdidi/contract-analyser)
+
+**A RAG-based assistant that answers questions about legal contracts — with citations.**
+Contracts are chunked and indexed, then queried with **hybrid retrieval** (semantic vector search + keyword/BM25) so answers stay grounded in the exact clauses they come from.
+
+- ⚙️ **Stack:** Python · embeddings · vector store · hybrid search · LLM
+- 💡 **Why it matters:** cuts contract review from reading pages to asking a question, while every answer points back to its source
+
+### 🎮 [CarthaPlay](https://github.com/AbdouJdidi/CarthaPlay4)
+
+**[Short description — what CarthaPlay is and who it's for]**
+
+- ⚙️ **Stack:** TypeScript · [frameworks]
+- 💡 **Why it matters:** [one line on the impact or what you learned]
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AbdouJdidi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdouJdidi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+</p>
+
+---
+
+## 📬 Get in Touch
+
+<p>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+</p>
+
+<p align="center"><i>"Sharpen the blade, then ship it." ⚔️</i></p>
