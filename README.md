@@ -1,5 +1,4 @@
-<!-- Banner: upload your image to the AbdouJdidi repo (e.g. assets/banner.png) then keep this path -->
-![Banner](./assets/banner.png)
+![Banner](./assets/banner.jpg)
 
 <h1 align="center">Hi, I'm Abderrahmen Jedidi 👋</h1>
 
