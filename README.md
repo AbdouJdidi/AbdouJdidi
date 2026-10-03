@@ -79,11 +79,11 @@ Contracts are chunked and indexed, then queried with **hybrid retrieval** (seman
 - 💡 **Why it matters:** cuts contract review from reading pages to asking a question, while every answer points back to its source
 
 ### 🎮 [CarthaPlay](https://github.com/AbdouJdidi/CarthaPlay4)
+**An educational gaming platform for children aged 6–12, combining interactive Unity games with a web platform that enables teachers to create learning experiences and track student progress.**
 
-**[Short description — what CarthaPlay is and who it's for]**
+* ⚙️ **Stack:** React · Node.js · TypeScript · Unity · C# · PostgreSQL · Supabase · Docker · GitHub Actions · CI/CD · REST APIs
+* 💡 **Why it matters:** Bridges education and game development to make learning more engaging, while giving teachers and educators tools to manage activities and monitor student progress.
 
-- ⚙️ **Stack:** TypeScript · [frameworks]
-- 💡 **Why it matters:** [one line on the impact or what you learned]
 
 ---
 
